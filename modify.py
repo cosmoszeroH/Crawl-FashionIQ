@@ -111,17 +111,17 @@ def modify_split_files(error_id_path, split_path, save_extracted_dir, save_split
         extract_splits(error_id, dress_type, split_path, save_extracted_dir, save_splits_dir)
 
 
-error_id_path = r'D:\Specialization\Project\GetFashionIQ\error'
-image_dir = r'C:\Users\CPS125\OneDrive\Documents\Dataset\fashionIQ_dataset\images'
+error_id_path = r'.\error'
+image_dir = r'.\fashionIQ_dataset\images'
 
-cap_dir = r'C:\Users\CPS125\OneDrive\Documents\Dataset\fashionIQ_dataset\previous_captions'
-save_extracted_dir = r'D:\Specialization\Project\GetFashionIQ\extracted_cap'
-save_captions_dir = r'C:\Users\CPS125\OneDrive\Documents\Dataset\fashionIQ_dataset\captions'
+cap_dir = r'.\fashionIQ_dataset\previous_captions'
+save_extracted_dir = r'.\extracted_cap'
+save_captions_dir = r'.\fashionIQ_dataset\captions'
 modify_caption_files(error_id_path, cap_dir, save_extracted_dir, save_captions_dir, image_dir)
 
-split_dir = r'C:\Users\CPS125\OneDrive\Documents\Dataset\fashionIQ_dataset\previous_image_splits'
-save_extracted_dir = r'D:\Specialization\Project\GetFashionIQ\extracted_split'
-save_split_dir = r'C:\Users\CPS125\OneDrive\Documents\Dataset\fashionIQ_dataset\image_splits'
+split_dir = r'.\fashionIQ_dataset\previous_image_splits'
+save_extracted_dir = r'.\extracted_split'
+save_split_dir = r'.\fashionIQ_dataset\image_splits'
 modify_split_files(error_id_path, split_dir, save_extracted_dir, save_split_dir, image_dir)
 
 
